@@ -1,0 +1,8 @@
+{
+  "/app/site/hosting/*": {
+    "target": "https://forms.netsuite.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
