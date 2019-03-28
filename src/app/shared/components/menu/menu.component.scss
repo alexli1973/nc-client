@@ -1,0 +1,25 @@
+.menu-badge {
+  display: inline-block;
+  height: 16px;
+  min-width: 10px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0 4px;
+}
+
+.mat-red {
+  background-color: #f44336 !important;
+  color: #fff !important;
+}
+
+//.menu-caret {
+//  display: inline-block;
+//  transition: transform .3s cubic-bezier(.7,0,.3,1);
+//  transition: transform .3s cubic-bezier(.7,0,.3,1),-webkit-transform .3s cubic-bezier(.7,0,.3,1);
+//  float: right;
+//  margin-left: .3125rem;
+//  text-align: center;
+//}

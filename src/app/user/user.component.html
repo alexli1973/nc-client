@@ -1,0 +1,11 @@
+<!--<a routerLink="/user/my-account">My Account</a>-->
+<!--<a routerLink="/user/supervisor">Supervisor</a>-->
+
+
+<mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+  <mat-button-toggle routerLink="/user/my-account" >My Account</mat-button-toggle>
+  <mat-button-toggle routerLink="/user/supervisor">Supervisor</mat-button-toggle>
+  <mat-button-toggle>Orders</mat-button-toggle>
+</mat-button-toggle-group>
+
+<router-outlet></router-outlet>
